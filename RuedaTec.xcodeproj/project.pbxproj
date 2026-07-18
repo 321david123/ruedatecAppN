@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D94642A76AD8EF17FD1583 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359427F4FC6FCE09E8FC8D4D /* OnboardingView.swift */; };
+		0DF9152E804F8433B07C1C1F /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5171DA4E25A88ADEC491B9 /* SettingsStore.swift */; };
+		1DA5EB993D362999A85AB1D3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D350B443382FD39FD7CA7EB /* SettingsView.swift */; };
+		1F09A85AC256389B991BE515 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6343FDCE609345574673A62 /* HomeView.swift */; };
+		22E57241C2B93DD66ADDD696 /* SpeedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67885E007F1D7BFBBCDE4E6B /* SpeedControlView.swift */; };
+		2508A0E89D72EDDB6EBA74F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D4C6A788E7918D926C70DF /* Assets.xcassets */; };
+		28E9A6714ECC046C3C87CD8E /* JoystickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3BEADD21E3701BA9657B6C /* JoystickView.swift */; };
+		2DE0D7B2903A9F49B52B8444 /* ConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986FBC6B7E5BE9262726845A /* ConsoleView.swift */; };
+		3403085CED090A29AD33E06E /* VoiceControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C9AC35834630B29012F8E /* VoiceControlManager.swift */; };
+		4733754AD788A1C26B2EB60D /* RuedaTecApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6817DB12AC737617823D8529 /* RuedaTecApp.swift */; };
+		49B2ADE9CC9FB94F52F1DA25 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628CD49A147D8C6E99F4C4BB /* ControlsView.swift */; };
+		4E504451D95355E988573759 /* VoiceControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB1ECBFA54B30388C7820D /* VoiceControlView.swift */; };
+		66B0512B4943FA54D908B06B /* IndicatorViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE01C2D2726F060EDE3489 /* IndicatorViews.swift */; };
+		86A516EB1A6953C2F260CBF9 /* ManualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26646785281EF2228F6B4B /* ManualView.swift */; };
+		9A9825B1E6167B4072852300 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D2B36E0C7F91120337699 /* HapticsManager.swift */; };
+		9AE4641F032989E0BAC1BDCC /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C98CEACD62A15415BCB6AAC /* AppTheme.swift */; };
+		A007F24189C6065FC4208F38 /* DPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0AE41D21BBD512A7B2F92 /* DPadView.swift */; };
+		BDDA17243F5AAA38F961A3DF /* EyeControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF2D0D1C96204263B931909 /* EyeControlView.swift */; };
+		C37A706C84000F62412DF74C /* ShakeDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1089A6A293F52A520360D2B2 /* ShakeDetector.swift */; };
+		CAFAA6109C532F40D49BFB7D /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AB2849C435E0C48B0FED09 /* BluetoothManager.swift */; };
+		E9C9169927A5E9C26B5BA3DF /* DriveDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350669E6B8F664C10C35DC47 /* DriveDirection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1089A6A293F52A520360D2B2 /* ShakeDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeDetector.swift; sourceTree = "<group>"; };
+		1C98CEACD62A15415BCB6AAC /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		350669E6B8F664C10C35DC47 /* DriveDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveDirection.swift; sourceTree = "<group>"; };
+		359427F4FC6FCE09E8FC8D4D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		449E63F9EA7EFC8C3E77C5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4C5171DA4E25A88ADEC491B9 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		5DB0AE41D21BBD512A7B2F92 /* DPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPadView.swift; sourceTree = "<group>"; };
+		628CD49A147D8C6E99F4C4BB /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		67885E007F1D7BFBBCDE4E6B /* SpeedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedControlView.swift; sourceTree = "<group>"; };
+		6817DB12AC737617823D8529 /* RuedaTecApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuedaTecApp.swift; sourceTree = "<group>"; };
+		6A9F1B9F420679F70EB77841 /* RuedaTec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuedaTec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CBB1ECBFA54B30388C7820D /* VoiceControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceControlView.swift; sourceTree = "<group>"; };
+		6FF2D0D1C96204263B931909 /* EyeControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeControlView.swift; sourceTree = "<group>"; };
+		7BD44A660EBD658DCAC3A27C /* RuedaTec.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RuedaTec.entitlements; sourceTree = "<group>"; };
+		7E26646785281EF2228F6B4B /* ManualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualView.swift; sourceTree = "<group>"; };
+		89D4C6A788E7918D926C70DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BAE01C2D2726F060EDE3489 /* IndicatorViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorViews.swift; sourceTree = "<group>"; };
+		8D350B443382FD39FD7CA7EB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8D6C9AC35834630B29012F8E /* VoiceControlManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceControlManager.swift; sourceTree = "<group>"; };
+		8D7D2B36E0C7F91120337699 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		986FBC6B7E5BE9262726845A /* ConsoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleView.swift; sourceTree = "<group>"; };
+		BB3BEADD21E3701BA9657B6C /* JoystickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickView.swift; sourceTree = "<group>"; };
+		C6AB2849C435E0C48B0FED09 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		E6343FDCE609345574673A62 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		06A00F41D99DC33872A0A4F5 = {
+			isa = PBXGroup;
+			children = (
+				368C495605C870E4ADCD7BD5 /* RuedaTec */,
+				071A2C1D86B411101B802FEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		071A2C1D86B411101B802FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A9F1B9F420679F70EB77841 /* RuedaTec.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		368C495605C870E4ADCD7BD5 /* RuedaTec */ = {
+			isa = PBXGroup;
+			children = (
+				89D4C6A788E7918D926C70DF /* Assets.xcassets */,
+				449E63F9EA7EFC8C3E77C5A4 /* Info.plist */,
+				7BD44A660EBD658DCAC3A27C /* RuedaTec.entitlements */,
+				B858D83EA632C63847799ABA /* App */,
+				928D65B745F4F02A40C68304 /* Models */,
+				44F57119094EA68FFCAD36A4 /* Theme */,
+				A7A4F2F69FA9F5A3B90FAEFD /* Views */,
+			);
+			path = RuedaTec;
+			sourceTree = "<group>";
+		};
+		44F57119094EA68FFCAD36A4 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				1C98CEACD62A15415BCB6AAC /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		907309C412FC48A00646AC59 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5DB0AE41D21BBD512A7B2F92 /* DPadView.swift */,
+				6FF2D0D1C96204263B931909 /* EyeControlView.swift */,
+				8BAE01C2D2726F060EDE3489 /* IndicatorViews.swift */,
+				BB3BEADD21E3701BA9657B6C /* JoystickView.swift */,
+				67885E007F1D7BFBBCDE4E6B /* SpeedControlView.swift */,
+				6CBB1ECBFA54B30388C7820D /* VoiceControlView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		928D65B745F4F02A40C68304 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB2849C435E0C48B0FED09 /* BluetoothManager.swift */,
+				350669E6B8F664C10C35DC47 /* DriveDirection.swift */,
+				8D7D2B36E0C7F91120337699 /* HapticsManager.swift */,
+				4C5171DA4E25A88ADEC491B9 /* SettingsStore.swift */,
+				1089A6A293F52A520360D2B2 /* ShakeDetector.swift */,
+				8D6C9AC35834630B29012F8E /* VoiceControlManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A7A4F2F69FA9F5A3B90FAEFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				986FBC6B7E5BE9262726845A /* ConsoleView.swift */,
+				628CD49A147D8C6E99F4C4BB /* ControlsView.swift */,
+				E6343FDCE609345574673A62 /* HomeView.swift */,
+				7E26646785281EF2228F6B4B /* ManualView.swift */,
+				359427F4FC6FCE09E8FC8D4D /* OnboardingView.swift */,
+				8D350B443382FD39FD7CA7EB /* SettingsView.swift */,
+				907309C412FC48A00646AC59 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B858D83EA632C63847799ABA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6817DB12AC737617823D8529 /* RuedaTecApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0F30E61BA4D37A0E5E539B8 /* RuedaTec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181AD957A85873B459CD7153 /* Build configuration list for PBXNativeTarget "RuedaTec" */;
+			buildPhases = (
+				7E59D35187EE53CE7400E4C4 /* Sources */,
+				379CC829F6F8BDDA485155A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RuedaTec;
+			packageProductDependencies = (
+			);
+			productName = RuedaTec;
+			productReference = 6A9F1B9F420679F70EB77841 /* RuedaTec.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9985005DC46AF18BB22243EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = BB9939B8953FE14CC384267E /* Build configuration list for PBXProject "RuedaTec" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 06A00F41D99DC33872A0A4F5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 071A2C1D86B411101B802FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0F30E61BA4D37A0E5E539B8 /* RuedaTec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		379CC829F6F8BDDA485155A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2508A0E89D72EDDB6EBA74F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E59D35187EE53CE7400E4C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE4641F032989E0BAC1BDCC /* AppTheme.swift in Sources */,
+				CAFAA6109C532F40D49BFB7D /* BluetoothManager.swift in Sources */,
+				2DE0D7B2903A9F49B52B8444 /* ConsoleView.swift in Sources */,
+				49B2ADE9CC9FB94F52F1DA25 /* ControlsView.swift in Sources */,
+				A007F24189C6065FC4208F38 /* DPadView.swift in Sources */,
+				E9C9169927A5E9C26B5BA3DF /* DriveDirection.swift in Sources */,
+				BDDA17243F5AAA38F961A3DF /* EyeControlView.swift in Sources */,
+				9A9825B1E6167B4072852300 /* HapticsManager.swift in Sources */,
+				1F09A85AC256389B991BE515 /* HomeView.swift in Sources */,
+				66B0512B4943FA54D908B06B /* IndicatorViews.swift in Sources */,
+				28E9A6714ECC046C3C87CD8E /* JoystickView.swift in Sources */,
+				86A516EB1A6953C2F260CBF9 /* ManualView.swift in Sources */,
+				06D94642A76AD8EF17FD1583 /* OnboardingView.swift in Sources */,
+				4733754AD788A1C26B2EB60D /* RuedaTecApp.swift in Sources */,
+				0DF9152E804F8433B07C1C1F /* SettingsStore.swift in Sources */,
+				1DA5EB993D362999A85AB1D3 /* SettingsView.swift in Sources */,
+				C37A706C84000F62412DF74C /* ShakeDetector.swift in Sources */,
+				22E57241C2B93DD66ADDD696 /* SpeedControlView.swift in Sources */,
+				3403085CED090A29AD33E06E /* VoiceControlManager.swift in Sources */,
+				4E504451D95355E988573759 /* VoiceControlView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		65AFD42B8B9A8912884B4871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RuedaTec/RuedaTec.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = MQ426V7959;
+				INFOPLIST_FILE = RuedaTec/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruedatec.app;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66AAB010530DE0F88D557F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RuedaTec/RuedaTec.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = MQ426V7959;
+				INFOPLIST_FILE = RuedaTec/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruedatec.app;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68A453F361183DC05442AE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		B99103DFC93D88AD7D58E475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181AD957A85873B459CD7153 /* Build configuration list for PBXNativeTarget "RuedaTec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66AAB010530DE0F88D557F55 /* Debug */,
+				65AFD42B8B9A8912884B4871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB9939B8953FE14CC384267E /* Build configuration list for PBXProject "RuedaTec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A453F361183DC05442AE30 /* Debug */,
+				B99103DFC93D88AD7D58E475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9985005DC46AF18BB22243EF /* Project object */;
+}

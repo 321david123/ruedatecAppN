@@ -1,0 +1,55 @@
+name: RuedaTec
+options:
+  bundleIdPrefix: com.ruedatec
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15.0"
+  createIntermediateGroups: true
+
+settings:
+  SWIFT_VERSION: "5.9"
+  GENERATE_INFOPLIST_FILE: false
+
+targets:
+  RuedaTec:
+    type: application
+    platform: iOS
+    sources:
+      - path: RuedaTec
+        excludes:
+          - "**/*.xcassets/*/Contents.json"
+    settings:
+      base:
+        INFOPLIST_FILE: RuedaTec/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.ruedatec.app
+        MARKETING_VERSION: "2.0.0"
+        CURRENT_PROJECT_VERSION: 2
+        TARGETED_DEVICE_FAMILY: "1,2"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        SWIFT_EMIT_LOC_STRINGS: "YES"
+        DEVELOPMENT_TEAM: ""
+    info:
+      path: RuedaTec/Info.plist
+      properties:
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        ITSAppUsesNonExemptEncryption: false
+        NSBluetoothAlwaysUsageDescription: "RuedaTec necesita Bluetooth para conectarse a tu silla de ruedas y controlar sus motores."
+        NSBluetoothPeripheralUsageDescription: "RuedaTec necesita Bluetooth para comunicarse con tu dispositivo RuedaTec."
+        NSMicrophoneUsageDescription: "RuedaTec usa el micrófono para el control por voz de tu silla de ruedas."
+        NSSpeechRecognitionUsageDescription: "RuedaTec reconoce comandos de voz como «adelante» o «alto» para mover tu silla sin usar las manos."
+        UIBackgroundModes:
+          - bluetooth-central
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    entitlements:
+      path: RuedaTec/RuedaTec.entitlements
+      properties: {}
